@@ -1,6 +1,6 @@
 function myplugin -d "My package"
     # Package entry-point
-    fish_info "Hello World!"
+    echo "Hello World!"
     echo "echo print"
     # Проверьте, нужна ли пользователю помощь.
     if begin
